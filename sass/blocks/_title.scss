@@ -1,0 +1,41 @@
+.title {
+  margin-top: 0;
+
+  font-weight: 700;
+
+  text-align: center;
+  color: $title-color;
+  letter-spacing: 0.03em;
+
+  &__hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+  &--work {
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 28px;
+    line-height: 1.18;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    line-height: 1.18;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+  }
+}
