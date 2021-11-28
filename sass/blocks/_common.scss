@@ -11,7 +11,6 @@ img {
 
 .section {
   &--work {
-    padding-top: 0;
     @media screen and (max-width: 1200px) {
       display: none;
     }
@@ -33,5 +32,8 @@ img {
   @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
+    &--work {
+      padding-top: 0;
+    }
   }
 }
