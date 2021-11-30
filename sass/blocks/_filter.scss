@@ -3,8 +3,7 @@
   display: flex;
   @media screen and (max-width: 768px) {
     flex-wrap: wrap;
-    margin: -7.5px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 
   @media screen and (min-width: 768px) {
@@ -14,11 +13,12 @@
 }
 
 .filter__item {
+  @media screen and (max-width: 768px) {
+    &:not(:nth-last-child(-n + 2)) {
+      margin-bottom: 15px;
+    }
+  }
   &:not(:last-child) {
     margin-right: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    margin: 7.5px;
   }
 }

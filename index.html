@@ -132,14 +132,15 @@
                     </li>
                     <li class="work__item">
                         <img srcset="
-                        ./img/responsible.jpg 1x,
-                        ./img/responsible@2x.jpg 2x" src="./img/responsible.jpg" alt="оптимизируем под мобильные устройства" width="370">
+                            ./img/responsible.jpg 1x,
+                            ./img/responsible@2x.jpg 2x" 
+                        src="./img/responsible.jpg" alt="оптимизируем под мобильные устройства" width="370">
                         <p class="work__descr">Мобильные приложения</p>
                     </li>
                     <li class="work__item">
                         <img srcset="
-                        ./img/design.jpg 1x,
-                        ./img/design@2x.jpg 2x" 
+                            ./img/design.jpg 1x,
+                            ./img/design@2x.jpg 2x" 
                         src="./img/design.jpg" alt="тщательно подбираем цвета" width="370">
                         <p class="work__descr">Дизайнерские решения</p>
                     </li>
@@ -151,10 +152,21 @@
                 <h2 class="title">Наша команда</h2>
                 <ul class="team">
                     <li class="team__item">
-                        <img srcset="
-                        ./img/staff/staff1.jpg 1x,
-                        ./img/staff/staff1@2x.jpg 2x" 
-                        src="./img/staff/staff1.jpg" alt="Продукт дизайнер Игорь Демьяненко" width="270">
+                        <picture>
+                                <source srcset="
+                                ./img/staff/staff1_480.jpg 1x,
+                                ./img/staff/staff1_480@2x.jpg 2x" media="(max-width: 768px)">
+
+                                <source srcset="
+                                ./img/staff/staff1.jpg 1x,
+                                ./img/staff/staff1@2x.jpg 2x" media="(min-width: 1200px)">
+
+                                <source srcset="
+                                ./img/staff/staff1_768.jpg 1x,
+                                ./img/staff/staff1_768@2x.jpg 2x" media="(min-width: 768px)">
+
+                                <img  src="./img/staff/staff1.jpg" alt="Продукт дизайнер Игорь Демьяненко" width="270">
+                            </picture>
                         <div class="team-text">
                             <h3 class="team-text__title">Игорь Демьяненко</h3>
                             <p class="team-text__descr">Product Designer</p>
@@ -191,10 +203,21 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img srcset="
-                        ./img/staff/staff2.jpg 1x,
-                        ./img/staff/staff2@2x.jpg 2x" 
-                        src="./img/staff/staff2.jpg" alt="Разработчик Ольга Репина" width="270">
+                         <picture>
+                                <source srcset="
+                                ./img/staff/staff2_480.jpg 1x,
+                                ./img/staff/staff2_480@2x.jpg 2x" media="(max-width: 768px)">
+
+                                <source srcset="
+                                ./img/staff/staff2.jpg 1x,
+                                ./img/staff/staff2@2x.jpg 2x" media="(min-width: 1200px)">
+
+                                <source srcset="
+                                ./img/staff/staff2_768.jpg 1x,
+                                ./img/staff/staff2_768@2x.jpg 2x" media="(min-width: 768px)">
+
+                                <img  src="./img/staff/staff2.jpg" alt="Разработчик Ольга Репина" width="270">
+                            </picture>
                         <div class="team-text">
                             <h3 class="team-text__title">Ольга Репина</h3>
                             <p class="team-text__descr">Frontend Developer</p>
@@ -231,10 +254,21 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img srcset="
-                        ./img/staff/staff3.jpg 1x,
-                        ./img/staff/staff3@2x.jpg 2x"
-                        src="./img/staff/staff3.jpg" alt="Маркетолог Николай Тарасов" width="270">
+                        <picture>
+                                <source srcset="
+                                ./img/staff/staff3_480.jpg 1x,
+                                ./img/staff/staff3_480@2x.jpg 2x" media="(max-width: 768px)">
+
+                                <source srcset="
+                                ./img/staff/staff3.jpg 1x,
+                                ./img/staff/staff3@2x.jpg 2x" media="(min-width: 1200px)">
+
+                                <source srcset="
+                                ./img/staff/staff3_768.jpg 1x,
+                                ./img/staff/staff3_768@2x.jpg 2x" media="(min-width: 768px)">
+
+                                <img  src="./img/staff/staff3.jpg" alt="Маркетолог Николай Тарасов" width="270">
+                            </picture>
                         <div class="team-text">
                             <h3 class="team-text__title">Николай Тарасов</h3>
                             <p class="team-text__descr">Marketing</p>
@@ -271,10 +305,21 @@
                         </div> 
                     </li>
                     <li class="team__item">
-                        <img srcset="
-                        ./img/staff/staff4.jpg 1x,
-                        ./img/staff/staff4@2x.jpg 2x"
-                        src="./img/staff/staff4.jpg" alt="Дизайнер Михаил Ермаков" width="270">
+                        <picture>
+                                <source srcset="
+                                ./img/staff/staff4_480.jpg 1x,
+                                ./img/staff/staff4_480@2x.jpg 2x" media="(max-width: 768px)">
+
+                                <source srcset="
+                                ./img/staff/staff4.jpg 1x,
+                                ./img/staff/staff4@2x.jpg 2x" media="(min-width: 1200px)">
+
+                                <source srcset="
+                                ./img/staff/staff4_768.jpg 1x,
+                                ./img/staff/staff4_768@2x.jpg 2x" media="(min-width: 768px)">
+
+                                <img  src="./img/staff/staff4.jpg" alt="Дизайнер Михаил Ермаков" width="270">
+                            </picture>
                         <div class="team-text">
                             <h3 class="team-text__title">Михаил Ермаков</h3>
                             <p class="team--text__descr">UI Designer</p>
